@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Pribadi - Yosi Rahmawati</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: white;
+        }
+        body {
+            width: 100%;
+            height: 100%;
+            background-color: #1A1A2E; /* Changed background color */
+        }
+        .navbar {
+            display: flex;
+            height: 80px;
+            width: 100%;
+            background-color: #16213E; /* Changed navbar color */
+            position: relative;
+            z-index: 2;
+        }
+        .navigasi {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .navigasi ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 80px;
+        }
+        .navigasi ul li a {
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: 600;
+            font-size: 24px;
+        }
+        .navigasi ul li a:hover {
+            color: #e94560; /* Changed hover color */
+        }
+        .content {
+            display: flex;
+            width: 100%;
+            height: 700px;
+        }
+        .left {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 0px 80px;
+            z-index: 2;
+        }
+        .left h1 {
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+        .left p {
+            font-size: 20px;
+            font-weight: 300;
+            text-align: justify;
+            color: #A7A9BE;
+            margin-top: 5px;
+        }
+        .left button {
+            padding: 15px 25px;
+            background-color: #e94560; /* Changed button color */
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 20px;
+            font-weight: 600;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        .left button:hover {
+            background-color: #ff6b81; /* Changed button hover color */
+        }
+        .right {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .right img {
+            object-fit: cover;
+            border-radius: 50%;
+        }
+        .Project {
+            width: 100%;
+            margin-top: 80px;
+        }
+        .Project h1 {
+            text-align: center;
+            font-size: 40px;
+            font-weight: 600;
+            margin-bottom: 40px;
+        }
+        .card {
+            width: 30%;
+            padding: 20px;
+            margin: 20px;
+            background-color: #76859d;
+            border-radius: 10px;
+        }
+        .pembungkus-card {
+            display: flex;
+            justify-content: space-around;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="navigasi">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Project</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </div>  
+    </div>
+    <hr>
+    <div class="content">
+        <div class="left">
+            <h1>Yosi Rahmawati</h1>
+            <p>Selamat datang di biodata pribadi saya! Saya adalah seorang mahasiswa Informatika yang memiliki minat dalam data analysis dan teknologi. Selain itu, saya senang berkolaborasi dalam proyek yang inovatif dan meningkatkan keterampilan saya. Di waktu luang, saya juga menikmati membaca buku dan menjelajahi dunia digital.</p>
+            <a href="https://github.com/yosi06"><button>Github</button></a>
+        </div>
+        <div class="right">
+            <img src="/img/yosi.almet2.jpg" width="500px" height="500px" alt="Yosi Rahmawati">
+        </div>
+    </div>
+    <div class="Project">
+        <h1>Project</h1>
+        <div class="pembungkus-card">
+            <div class="card">
+                <h3>Project 1</h3>
+                <p style="text-align: justify;">Deskripsi singkat tentang project 1. Ini adalah contoh project yang menunjukkan kemampuan saya dalam menggunakan teknologi untuk memecahkan masalah.</p>
+            </div>
+            <div class="card">
+                <h3>Project 2</h3>
+                <p style="text-align: justify;">Deskripsi singkat tentang project 2. Project ini berfokus pada pengembangan aplikasi yang memudahkan pengguna dalam aktivitas sehari-hari.</p>
+            </div>
+            <div class="card">
+                <h3>Project 3</h3>
+                <p style="text-align: justify;">Deskripsi singkat tentang project 3. Di sini, saya mengeksplorasi berbagai teknologi untuk menciptakan solusi yang efektif dan efisien.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
